@@ -55,7 +55,10 @@ def linear_regression(X1, y, learning_rate=0.01, num_iters=1000):
         theta -= learning_rate * (1/len(X1)) * X.T.dot(errors)
     return theta
 data = pd.read_csv('50_Startups.csv')
+print(''' Name: Alan Samuel Vedanayagam
+Reg. no: 212223040012''')
 print(data.head())
+
 
 # Assuming the last column is your target variable 'y' and the preceding columns a
 X = (data.iloc[1:, :-2].values)
@@ -84,7 +87,7 @@ print(f"Predicted value: {pre}")
 ## Output:
 ## Data information
 
-![image](https://github.com/user-attachments/assets/c26cd55a-5861-425c-9ee9-33b8ff9c0923)
+![image](https://github.com/user-attachments/assets/55d778db-4d7f-414e-be58-fc73ce70e2da)
 
 
 ## Value of x
